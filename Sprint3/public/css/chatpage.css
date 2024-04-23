@@ -1,0 +1,166 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the tab container */
+.tab-container {
+    background-color: #acd5ef59;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Styling for the logo */
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Styling for the chat messages container */
+/* .chat-messages {
+    margin-top: 20px;
+} */
+
+/* Styling for individual chat messages */
+.message {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for sender information */
+
+
+.sender-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message-content {
+    margin-bottom: 50px;
+}
+
+/* Styling for message actions */
+.message-actions {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for buttons */
+.btn {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+input[type="text"] {
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #f9f9f9;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+/* Styling for student list */
+.student-list-container {
+    margin-top: 20px;
+}
+
+/* .student-list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+.student-name {
+    margin-bottom: 5px;
+}
+
+.inbox-btn {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.send-message-form
+{
+    position: sticky;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    background-color:  #acd5ef59;
+    padding: 10px;
+}
+.send-request-form {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #acd5ef59;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Align divs at the ends of the container */
+    
+  
+
+}
+
+.student-list {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.chat-messages {
+    flex: 4; /* Take up 1/2 of the available width */
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+
+form {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}

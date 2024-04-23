@@ -1,0 +1,35 @@
+.tab-container {
+    background-color: #acd5ef59;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Styling for the logo */
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+form {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}

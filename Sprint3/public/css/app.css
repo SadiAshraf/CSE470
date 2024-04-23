@@ -1,0 +1,137 @@
+*{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab-container {
+    background-color: #bb81fd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    /* Add your logo image or icon styles here */
+}
+
+/* Options */
+.options {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option {
+    margin-right: 10px;
+    /* Add your option styles here */
+}
+
+/* Welcome message */
+.welcome-message {
+    margin-bottom: 10px;
+    /* Add your welcome message styles here */
+}
+
+/* Button */
+.profile-button {
+    padding: 10px;
+    background-color: #8c97ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    /* Add your button styles here */
+}
+.profile-button:hover{
+    padding: 10px;
+    background-color: #000000;
+    transition: 0.6s;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Set height and overflow for chat messages container */
+.chat-messages {
+    height: 300px; /* Adjust the height as needed */
+    overflow-y: scroll;
+}
+
+/* Set position and styles for chat input container */
+.chat-input {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Set position and styles for group request container */
+.group-request {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    
+    padding: 0;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.chat-messages {
+    flex-grow: 1;
+
+    overflow-y: auto;
+    
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #503dbe;
+    position: sticky;
+    bottom: 0;
+}
+
+
+form {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
